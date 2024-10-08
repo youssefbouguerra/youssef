@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #000; /* Darker color for genre links */
     text-decoration: none;
     font-weight: bold;
 }
 
 main {
     padding: 2rem;
-    padding-top: 100px; /* Adjust based on header height */
+    padding-top: 80px; /* Adjust based on header height */
 }
 
 section {
@@ -59,4 +59,8 @@ li {
     padding: 0.5rem;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-bottom: 20px;
 }
