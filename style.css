@@ -26,10 +26,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #000; /* Darker color for genre links */
     text-decoration: none;
     font-weight: bold;
 }
+
+nav ul li a:hover {
+    color: #333; /* Even darker color on hover, if you want */
+}
+
 
 main {
     padding: 2rem;
