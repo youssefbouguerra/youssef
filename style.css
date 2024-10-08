@@ -10,10 +10,6 @@ header {
     color: white;
     text-align: center;
     padding: 1.5rem 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 nav ul {
@@ -30,14 +26,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Darker color for genre links */
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 main {
     padding: 2rem;
-    padding-top: 120px; /* Adjust based on header height */
 }
 
 section {
