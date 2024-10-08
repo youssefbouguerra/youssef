@@ -1,3 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Website loaded and ready!');
+    console.log('PickFlix loaded and ready!');
+    // Additional JavaScript functionality can go here
 });
