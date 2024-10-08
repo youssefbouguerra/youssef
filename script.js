@@ -10,10 +10,18 @@ function showMovieForm() {
 
     if (!genres[genre]) {
         genres[genre] = [];
+        
+        // Add new genre section
         const newSection = document.createElement('section');
         newSection.id = genre.toLowerCase();
         newSection.innerHTML = `<h2>${genre} Movies</h2><ul></ul>`;
         document.querySelector('main').appendChild(newSection);
+
+        // Add new genre to navigation
+        const genreNav = document.getElementById('genre-nav');
+        const newNavItem = document.createElement('li');
+        newNavItem.innerHTML = `<a href="#${genre.toLowerCase()}">${genre}</a>`;
+        genreNav.appendChild(newNavItem);
     }
 
     genres[genre].push(title);
