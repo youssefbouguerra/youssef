@@ -12,6 +12,25 @@ header {
     padding: 1.5rem 0;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 main {
     padding: 2rem;
 }
@@ -21,7 +40,7 @@ section {
 }
 
 h2 {
-    color: #ff7e5f;
+    color: #000000;
 }
 
 ul {
