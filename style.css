@@ -26,13 +26,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Darker color for genre links */
+    color: #000 !important; /* Darker color for genre links */
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #333; /* Even darker color on hover, if you want */
+    color: #333 !important; /* Even darker color on hover, if you want */
 }
 
 
