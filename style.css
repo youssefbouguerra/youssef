@@ -10,6 +10,10 @@ header {
     color: white;
     text-align: center;
     padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -33,6 +37,7 @@ nav ul li a {
 
 main {
     padding: 2rem;
+    padding-top: 100px; /* Adjust based on header height */
 }
 
 section {
